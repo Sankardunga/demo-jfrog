@@ -41,6 +41,18 @@
       <artifactId>spring-core</artifactId>
       <version>5.3.7</version>
     </dependency>
+    <dependency>
+    <groupId>Problem dependency group</groupId>
+    <artifactId>Problem dependency</artifactId>
+    <version>1.0.0</version>
+    <exclusions>
+        <exclusion>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>org.apache.commons.lang</artifactId>
+        </exclusion>
+    </exclusions>
+    </dependency>
+	  
   </dependencies>
 	
   <build>
