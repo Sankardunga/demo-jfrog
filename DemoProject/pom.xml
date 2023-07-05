@@ -34,6 +34,19 @@
   </properties>
   
   <dependencies>
+  ‹dependency>
+<groupId>org.gwtproject‹/groupId>
+<artifactId>gwt-servlet‹/artifactId>
+‹version>2.10.0</version>
+sexclusions>
+<exclusion>
+‹artifactId>protobuf-java‹/artifactId>
+<groupId>com.google.protobufs/groupId>
+</exclusion>
+</exclusions>
+</ dependency>
+
+
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-annotations</artifactId>
