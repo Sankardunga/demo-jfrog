@@ -34,11 +34,17 @@
   </properties>
   
   <dependencies>
-  <dependency>
-    <groupId>org.gwtproject</groupId>
-    <artifactId>gwt-servlet</artifactId>
-    <version>2.10.0</version>
-  </dependency>
+<dependency>
+<groupId>org.gwtproject</groupId>
+<artifactId>gwt-servlet</artifactId>
+<version>2.10.0</version>
+<exclusions>
+<exclusion>
+<artifactId>protobuf-java</artifactId>
+<groupId>com.google.protobuf</groupId>
+</exclusion>
+</exclusions>
+</dependency>
 
 
 <dependency>
